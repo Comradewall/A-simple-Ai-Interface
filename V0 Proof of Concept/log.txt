@@ -1,0 +1,15 @@
+2023-04-18 16:51:55.867189
+Sure! Here's an example of a simple Python script that allows the user to exit the program by pressing "q" or "Q" on their keyboard:
+
+```python
+import sys
+
+while True:
+    user_input = input("Press 'q' to exit the program: ")
+    if user_input.lower() == "q":
+        sys.exit()
+```
+
+This script uses a `while` loop to keep prompting the user for input until they enter "q" or "Q". If the user enters one of these characters, the `sys.exit()` function is called to immediately terminate the program.
+
+Note that this is a very basic example and doesn't handle any other types of input or error cases. You could modify it to include additional functionality or error checking as needed for your specific use case.
